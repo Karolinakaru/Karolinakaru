@@ -4,8 +4,8 @@ zawartością
 • Utwórz w tym katalogu repozytorium git i sprawdź jego stan (status)
 • Dodaj do niego wszystkie pliki z tego katalogu i sprawdź stan repozytorium
 • Zakomituj zmiany i sprawdź stan repozytorium
-$ mkdir repo1
-$ cd repo1
+mkdir repo1
+cd repo1
 $ echo "Plik 1" > plik1.txt
 $ echo "Plik 2" > plik2.txt
 $ git init
