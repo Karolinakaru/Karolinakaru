@@ -33,9 +33,10 @@ $ git commit -m "Zmodyfikowano pliki"
 $ git log
 
 Zadanie 3
-• Sklonuj repozytorium repo1 jako repo2
+Sklonuj repozytorium repo1 jako repo2
 
 $ cd ..
+
 $ git clone repo1 repo2
 
 Zadanie 4
