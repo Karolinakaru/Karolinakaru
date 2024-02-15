@@ -1,11 +1,10 @@
-Zadanie 1
-• Utwórz katalog repo1 zawierający dwa pliki tekstowe z dowolną, rożną
-zawartością
-• Utwórz w tym katalogu repozytorium git i sprawdź jego stan (status)
-• Dodaj do niego wszystkie pliki z tego katalogu i sprawdź stan repozytorium
-• Zakomituj zmiany i sprawdź stan repozytorium
-mkdir repo1
-cd repo1
+Zadanie 1 
+Utwórz katalog repo1 zawierający dwa pliki tekstowe z dowolną, rożnązawartością. 
+Utwórz w tym katalogu repozytorium git i sprawdź jego stan (status). 
+Dodaj do niego wszystkie pliki z tego katalogu i sprawdź stan repozytorium. 
+Zakomituj zmiany i sprawdź stan repozytorium: 
+$ mkdir repo1
+$ cd repo1
 $ echo "Plik 1" > plik1.txt
 $ echo "Plik 2" > plik2.txt
 $ git init
@@ -17,12 +16,12 @@ $ git status
 
 
 Zadanie 2
-• W repo1 zmodyfikuj zawartość jednego z plików
-• Sprawdź stan repozytorium
-• Zmodyfikuj zawartość drugiego z plików
-• Wyświetl tę różnicę tylko dla jednego z plików
-• Zakomituj zmiany
-• Wyświetl historię zmian w repozytorium
+W repo1 zmodyfikuj zawartość jednego z plików. 
+Sprawdź stan repozytorium. 
+Zmodyfikuj zawartość drugiego z plików. 
+Wyświetl tę różnicę tylko dla jednego z plików. 
+Zakomituj zmiany. 
+Wyświetl historię zmian w repozytorium. 
 
 $ echo "Zawartość zmodyfikowana 1" > plik1.txt
 $ git status
